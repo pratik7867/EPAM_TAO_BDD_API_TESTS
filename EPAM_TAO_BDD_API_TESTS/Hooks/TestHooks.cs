@@ -11,7 +11,7 @@ namespace EPAM_TAO_BDD_API_TESTS.Hooks
     public sealed class TestHooks
     {
         // For additional details on SpecFlow hooks see http://go.specflow.org/doc-hooks                
-        public string strAUT { get { return ConfigurationManager.AppSettings["AUT"].ToString(); } }                
+        private string strAUT { get { return ConfigurationManager.AppSettings["AUT"].ToString(); } }                
 
         [BeforeScenario]
         public void BeforeScenario(ScenarioContext scenarioContext)
