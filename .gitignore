@@ -361,3 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/EPAM_TAO_BDD_API_TESTS/mongocrypt.dll
